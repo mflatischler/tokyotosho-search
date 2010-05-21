@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+					xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<!-- description part -->
+	<ShortName>Tokyo Toshokan</ShortName>
+	<LongName>Tokyo Toshokan Torrent Listing</LongName>
+	<Description>Searches tokyotosho.info for japanese media torrents.</Description>
+	<Tags>japanese, anime, manga, drama, japanese music, anime raw, manga raw, j-pop, anime music, animations, torrents, torrent</Tags>
+	<Image width="16" height="16" "image/png">http://s3.tokyotosho.info/favicon.png</Image>
+	
+	<!-- author of this file -->
+	<Developer>mflatischler</Developer>
+	
+	<!-- search part -->
+	<Url type="text/html" method="GET" template="https://www.tokyotosho.info/search.php?terms={searchTerms}"/>
+	<Language>en</Language>
+	<Language>jp</Language>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	
+	<!-- misc -->
+	<SearchForm>https://www.tokyotosho.info/search.php</SearchForm>
+</OpenSearchDescription>
