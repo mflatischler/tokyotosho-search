@@ -1,0 +1,10 @@
+﻿<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Tokyo Toshokan</ShortName>
+<Description>Searches tokyotosho.info for japanese media torrents.</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEUAAAD///+l2Z/dAAAAF0lE
+QVR42mNggIE/9TDkyPCnHBXBpeoBcPgS2r7xJnsAAAAASUVORK5CYII=</Image>
+<SearchForm>http://tokyotosho.info/search.php</SearchForm>
+<Url type="text/html" method="GET" template="http://tokyotosho.info/search.php?terms={searchTerms}"/>
+</OpenSearchDescription>
