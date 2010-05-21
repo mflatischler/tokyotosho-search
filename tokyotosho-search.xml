@@ -1,10 +1,23 @@
-﻿<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-<ShortName>Tokyo Toshokan</ShortName>
-<Description>Searches tokyotosho.info for japanese media torrents.</Description>
-<InputEncoding>UTF-8</InputEncoding>
-<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEUAAAD///+l2Z/dAAAAF0lE
-QVR42mNggIE/9TDkyPCnHBXBpeoBcPgS2r7xJnsAAAAASUVORK5CYII=</Image>
-<SearchForm>http://tokyotosho.info/search.php</SearchForm>
-<Url type="text/html" method="GET" template="http://tokyotosho.info/search.php?terms={searchTerms}"/>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+					xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<!-- description part -->
+	<ShortName>Tokyo Toshokan</ShortName>
+	<LongName>Tokyo Toshokan Torrent Listing</LongName>
+	<Description>Searches tokyotosho.info for japanese media torrents.</Description>
+	<Tags>japanese, anime, manga, drama, japanese music, anime raw, manga raw, j-pop, anime music, animations, torrents, torrent</Tags>
+	<Image width="16" height="16" "image/png">http://s3.tokyotosho.info/favicon.png</Image>
+	
+	<!-- author of this file -->
+	<Developer>mflatischler</Developer>
+	
+	<!-- search part -->
+	<Url type="text/html" method="GET" template="http://tokyotosho.info/search.php?terms={searchTerms}"/>
+	<Language>en</Language>
+	<Language>jp</Language>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	
+	<!-- misc -->
+	<SearchForm>http://tokyotosho.info/search.php</SearchForm>
 </OpenSearchDescription>
