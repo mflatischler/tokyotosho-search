@@ -6,7 +6,7 @@
 	<LongName>Tokyo Toshokan Torrent Listing</LongName>
 	<Description>Searches tokyotosho.info for japanese media torrents.</Description>
 	<Tags>japanese, anime, manga, drama, japanese music, anime raw, manga raw, j-pop, anime music, animations, torrents, torrent</Tags>
-	<Image width="16" height="16" "image/png">https://www.tokyotosho.info/images/favicon.png</Image>
+	<Image width="16" height="16" type="image/png">https://www.tokyotosho.info/images/favicon.png</Image>
 	
 	<!-- author of this file -->
 	<Developer>mflatischler</Developer>
